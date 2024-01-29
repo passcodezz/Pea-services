@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-size: 8px;
+  font-family: "Sarabun", sans-serif;
+  /* font-family: "Kanit", sans-serif; */
+  @media (min-width: 640px) {
+    font-size: 16px;
+  }
+}
+.app-loading .ant-modal-content {
+  background-color: transparent;
+  box-shadow: none;
+}
+.app-loading .ant-modal-confirm-btns {
+  display: none;
+}
+
+.modelWrapperModal .ant-modal-content {
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border: 0px !important;
+  background-color: rgb(249 250 251) !important;
+}
+
+.moreMenu {
+  width: auto;
+}
+
+.ant-dropdown-menu .ant-dropdown-menu-item {
+  padding: 0.5rem 1rem;
+  line-height: 1.5rem;
+  align-items: center;
+  color: #050505;
+}
+
+.custom-modal .ant-modal-confirm-btns {
+  display: none;
+}

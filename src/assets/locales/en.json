@@ -1,0 +1,82 @@
+{
+  "menu": {
+    "/users": "Users",
+    "/users/profile": "Profile",
+    "/users/list": "User List",
+    "/dashboard": "Dashboard",
+    "/api-key": "API Key",
+    "/template": "Template",
+    "/report": "Report",
+    "/report/transaction-log": "Transaction log",
+    "/report/electronic-mail": "รายงานสรุป"
+  },
+  "page": {
+    "login": {
+      "title": "Sign in to platform",
+      "text_login": "Login to your account"
+    },
+    "/users": "Users",
+    "/users/list": "List",
+    "/users/profile": "Profile",
+    "/dashboard": "Dashboard",
+    "/api-key": "API Key",
+    "/api-key/list": "List",
+    "/template": "Template",
+    "/create-template": "Create",
+    "/edit-template": "Edit",
+    "/report": "Report",
+    "/report/transaction-log": "Transaction log",
+    "/report/electronic-mail": "รายงานสรุปจำนวนการส่งจดหมายอิเล็กซ์ทรอนิกส์",
+    "reset": {
+      "title": "Reset your password?",
+      "subtitle": "Type in your email and we will send you a URL to reset your password.",
+      "text_reset": "Reset password"
+    },
+    "set_pw": {
+      "title": "Set password",
+      "text_set_pw": "Set password"
+    },
+    "success_pw": {
+      "title": " Successful password reset!",
+      "subtitle": "Now you can use your new password to log in to your account.",
+      "text_success_pw": "Go to log in page"
+    },
+    "profile": {
+      "pageName": "Profile setting",
+      "title_card_1": "Account information",
+      "title_card_2": "Change Password",
+      "button_save": "Save "
+    },
+    "template": {
+      "pageName": "All Template",
+      "pageNameCreate": "New Template",
+      "pageNameEdit": "Edit Template"
+    },
+    "report": {
+      "pageName": "Transaction log",
+      "pageNameSummary": "รายงานสรุปจำนวนการส่งจดหมายอิเล็กซ์ทรอนิกส์"
+    },
+    "dashbord": {
+      "pageName": "Dashbord"
+    }
+  },
+  "common": {
+    "email": "email",
+    "email_name": "Your Email",
+    "password": "password",
+    "new_password": "New Password",
+    "confirm_password": "Confirm Password",
+    "current_password": "Current Password",
+    "role": "Role",
+    "department": "Department",
+    "no_data": "No results found",
+    "no_data_sub": "Try adjusting your search <br/>to find what you are looking for"
+  },
+  "btn": {
+    "clear": "Clear",
+    "search": "Search",
+    "add_user": "add user",
+    "add_api_key": "Add API Key",
+    "add_template": "Add Template"
+  }
+}

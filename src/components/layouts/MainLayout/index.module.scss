@@ -1,0 +1,5 @@
+.wrapperMain {
+  height: calc(100vh - theme("height.navbar"));
+  width: 100%;
+  overflow-y: auto;
+}
